@@ -29,16 +29,26 @@
                     </ul>
                 </nav>
                 
-                 <div class="hero-buttons">
-        <form method="POST" action="{{ route('paystack.pay') }}">
-            @csrf
-            <input type="hidden" name="email" value="donor@example.com"> <!-- Optional: Use authenticated user's email -->
-            <input type="hidden" name="amount" value="5000"> <!-- Amount in Naira -->
-            <button type="submit" class="primary-button">Donate Now</button>
-        </form>
-                <button class="mobile-menu-button" aria-label="Toggle menu">
-                </button>
-            </div>
+    <script src="https://js.paystack.co/v1/inline.js"></script>
+<script>
+    document.getElementById('donationForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+        let handler = PaystackPop.setup({
+            key: 'pk_test_xxxxxxxxxxxxxx', // Replace with your PUBLIC key
+            email: document.getElementById('email').value,
+            amount: document.getElementById('amount').value * 100, // in kobo
+            callback: function (response) {
+                alert('Payment successful. Ref: ' + response.reference);
+                // Optionally send response.reference to your server to verify
+            },
+            onClose: function () {
+                alert('Transaction canceled');
+            }
+        });
+        handler.openIframe();
+    });
+</script>
+
             
             <!-- Mobile Navigation -->
             <div class="mobile-nav">

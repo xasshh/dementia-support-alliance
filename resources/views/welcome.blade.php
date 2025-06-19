@@ -59,7 +59,10 @@
                     <li><a href="#get-involved" class="nav-link">Get Involved</a></li>
                     <li><a href="#news" class="nav-link">News/Blog</a></li>
                     <li><a href="#contact" class="nav-link">Contacts</a></li>
-                    <li><a href="#donation" class="donate-button mobile-donate">DONATE</a></li>
+                   <a href="https://docs.google.com/forms/d/e/1FAIpQLScBnnS5O7o7pfhAthI4ChN1_Fl2iWPpbGdhQN1Nyw3re0YJXw/viewform?usp=header" target="_blank" class="primary-button">
+    Donate Now
+</a>        </form>
+
                 </ul>
             </div>
         </div>
@@ -278,7 +281,9 @@
     <input type="hidden" name="amount" value="5000"> <!-- Amount in Naira -->
     <input type="hidden" name="campaign" value="Public Awareness & Education"> <!-- Optional campaign tag -->
     
-    <button type="submit" class="primary-button">Donate Now</button>
+   <a href="https://docs.google.com/forms/d/e/1FAIpQLScBnnS5O7o7pfhAthI4ChN1_Fl2iWPpbGdhQN1Nyw3re0YJXw/viewform?usp=header" target="_blank" class="primary-button">
+    Donate Now
+</a>
      <a href="#" class="secondary-button">Learn More</a>
 </form>
                             </div>
@@ -314,7 +319,10 @@
     <input type="hidden" name="amount" value="5000"> <!-- Amount in Naira -->
     <input type="hidden" name="campaign" value="Public Awareness & Education"> <!-- Optional campaign tag -->
     
-    <button type="submit" class="primary-button">Donate Now</button>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScBnnS5O7o7pfhAthI4ChN1_Fl2iWPpbGdhQN1Nyw3re0YJXw/viewform?usp=header" target="_blank" class="primary-button">
+    Donate Now
+</a>        </form>
+
      <a href="#" class="secondary-button">Learn More</a>
 </form>
                             </div>
@@ -349,7 +357,10 @@
     <input type="hidden" name="amount" value="5000"> <!-- Amount in Naira -->
     <input type="hidden" name="campaign" value="Public Awareness & Education"> <!-- Optional campaign tag -->
     
-    <button type="submit" class="primary-button">Donate Now</button>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLScBnnS5O7o7pfhAthI4ChN1_Fl2iWPpbGdhQN1Nyw3re0YJXw/viewform?usp=header" target="_blank" class="primary-button">
+    Donate Now
+</a>        </form>
+
      <a href="#" class="secondary-button">Learn More</a>
 </form>
 
@@ -385,7 +396,10 @@
     <input type="hidden" name="amount" value="5000"> <!-- Amount in Naira -->
     <input type="hidden" name="campaign" value="Public Awareness & Education"> <!-- Optional campaign tag -->
     
-    <button type="submit" class="primary-button">Donate Now</button>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScBnnS5O7o7pfhAthI4ChN1_Fl2iWPpbGdhQN1Nyw3re0YJXw/viewform?usp=header" target="_blank" class="primary-button">
+    Donate Now
+</a>        </form>
+
      <a href="#" class="secondary-button">Learn More</a>
 </form>
                             </div>

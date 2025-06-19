@@ -84,8 +84,10 @@
             @csrf
             <input type="hidden" name="email" value="donor@example.com"> <!-- Optional: Use authenticated user's email -->
             <input type="hidden" name="amount" value="5000"> <!-- Amount in Naira -->
-            <button type="submit" class="primary-button">Donate Now</button>
-        </form>
+ <a href="https://docs.google.com/forms/d/e/1FAIpQLScBnnS5O7o7pfhAthI4ChN1_Fl2iWPpbGdhQN1Nyw3re0YJXw/viewform?usp=header" target="_blank" class="primary-button">
+    Donate Now
+</a>        </form>
+
 
         <a href="#get-involved" class="secondary-button">Get Involved</a>
     </div>

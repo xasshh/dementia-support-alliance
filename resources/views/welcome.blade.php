@@ -768,50 +768,49 @@ document.addEventListener("DOMContentLoaded", function () {
   action="https://formspree.io/f/xyzjpqrj"
   method="POST"
 >
-                        <div class="volunteer-form" id="volunteer-form">
-                            <h3>Volunteer Application</h3>
-                            <form>     <div class="form-row">
-                                    <div class="form-group">
-                                        <label for="volunteerFirstName">First Name</label>
-                                        <input id="volunteerFirstName" type="text" placeholder="First Name" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="volunteerLastName">Last Name</label>
-                                        <input id="volunteerLastName" type="text" placeholder="Last Name" required>
-                                    </div>
-                                </div>
+  <div class="volunteer-form" id="volunteer-form">
+    <h3>Volunteer Application</h3>
 
-                                <div class="form-group">
-                                    <label for="volunteerEmail">Email</label>
-                                    <input id="volunteerEmail" type="email" placeholder="Email Address" required>
-                                </div>
+    <div class="form-row">
+      <div class="form-group">
+        <label for="volunteerFirstName">First Name</label>
+        <input id="volunteerFirstName" name="firstName" type="text" placeholder="First Name" required>
+      </div>
+      <div class="form-group">
+        <label for="volunteerLastName">Last Name</label>
+        <input id="volunteerLastName" name="lastName" type="text" placeholder="Last Name" required>
+      </div>
+    </div>
 
-                                <div class="form-group">
-                                    <label for="volunteerPhone">Phone</label>
-                                    <input id="volunteerPhone" type="tel" placeholder="Phone Number">
-                                </div>
+    <div class="form-group">
+      <label for="volunteerEmail">Email</label>
+      <input id="volunteerEmail" name="email" type="email" placeholder="Email Address" required>
+    </div>
 
-                                <div class="form-group">
-                                    <label for="volunteerInterests">Areas of Interest</label>
-                                    <select id="volunteerInterests" required>
-                                        <option value="">Select an option</option>
-                                        <option value="medical">Medical Support</option>
-                                        <option value="events">Event Planning</option>
-                                        <option value="admin">Administrative Support</option>
-                                        <option value="skilled">Skilled Volunteering</option>
-                                    </select>
-                                </div>
+    <div class="form-group">
+      <label for="volunteerPhone">Phone</label>
+      <input id="volunteerPhone" name="phone" type="tel" placeholder="Phone Number">
+    </div>
 
-                                <div class="form-group">
-                                    <label for="volunteerMessage">Why do you want to volunteer?</label>
-                                    <textarea id="volunteerMessage" placeholder="Tell us about your motivation and any relevant experience" rows="4"></textarea>
-                                </div>
+    <div class="form-group">
+      <label for="volunteerInterests">Areas of Interest</label>
+      <select id="volunteerInterests" name="interests" required>
+        <option value="">Select an option</option>
+        <option value="medical">Medical Support</option>
+        <option value="events">Event Planning</option>
+        <option value="admin">Administrative Support</option>
+        <option value="skilled">Skilled Volunteering</option>
+      </select>
+    </div>
 
-                                <button type="submit" class="primary-button full-width">Submit Application</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+    <div class="form-group">
+      <label for="volunteerMessage">Why do you want to volunteer?</label>
+      <textarea id="volunteerMessage" name="message" placeholder="Tell us about your motivation and any relevant experience" rows="4"></textarea>
+    </div>
+
+    <button type="submit" class="primary-button full-width">Submit Application</button>
+  </div>
+</form>
 
                 <div class="tab-content" id="fundraise-tab">
                     <div class="fundraise-content">
